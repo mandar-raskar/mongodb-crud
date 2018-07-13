@@ -2,7 +2,7 @@
 This is used to make CRUD operations in Node.js with MongoDB.
 # Install 
 ```
-    npm install mongodb-crud
+    npm install npm-mongodb-crud
 ```
 
 # Usage
