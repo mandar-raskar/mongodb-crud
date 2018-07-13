@@ -1,8 +1,8 @@
-# npm-mongodb-crud
+# node-mongodb-crud
 This is used to make CRUD operations in Node.js with MongoDB.
 # Install 
 ```
-    npm install npm-mongodb-crud
+    npm install node-mongodb-crud
 ```
 
 # Usage
@@ -10,7 +10,7 @@ This is used to make CRUD operations in Node.js with MongoDB.
 
 #index.js
 ```JavaScript
-var Mongo-Crud = require("npm-mongodb-crud");
+var Mongo-Crud = require("node-mongodb-crud");
   Mongo-Crud.connect("mongodb://localhost:27017/"Database_Name",function(err,db){
       //To get the data from database
         Mongo-Crud.find(db,"Database_Name","Collection_Name");
