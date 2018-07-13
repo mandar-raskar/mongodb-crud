@@ -10,7 +10,7 @@ This is used to make CRUD operations in Node.js with MongoDB.
 
 #index.js
 ```JavaScript
-var Mongo-Crud = require("mongodb-crud");
+var Mongo-Crud = require("npm-mongodb-crud");
   Mongo-Crud.connect("mongodb://localhost:27017/"Database_Name",function(err,db){
       //To get the data from database
         Mongo-Crud.find(db,"Database_Name","Collection_Name");
